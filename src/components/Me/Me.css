@@ -1,0 +1,35 @@
+.about__me {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+    gap: 10px;
+    background-color: #15141A;
+}
+
+.about__me__info {
+    width: 40%;
+    color: white;
+}
+
+.about__me__info>h1 {
+    font-size: 48px;
+    color: #ffd700;
+    font-weight: bold;
+}
+
+.about__me__info p {
+    margin-top: 10px;
+    line-height: 20px;
+    font-size: 20px;
+
+}
+
+.about__me__image {
+    width: 30%;
+    margin-left: 70px;
+}
+
+.about__me__image img {}

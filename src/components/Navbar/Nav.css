@@ -1,0 +1,50 @@
+.navbar {
+    background-color: #15141A;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+.nav__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.navbar__right__list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar__right__list li {
+    margin-left: 30px;
+}
+
+.navbar__right__list li:first-child {
+    margin-left: 0;
+}
+
+.navbar__right__list li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    transition: .3s ease-out;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.navbar__right__list li a:hover {
+    background-color: #FFD700;
+}
+
+.gold {
+    color: #FFD700;
+}
